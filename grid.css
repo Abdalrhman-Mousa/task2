@@ -1,0 +1,68 @@
+header{
+    background-color: rgb(67, 69, 66);
+
+}
+
+header nav {
+    display: grid;
+    justify-items: center;
+    height: 100px;
+  }
+
+  header ul {
+    width: 1024px;
+    display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  }
+
+  header nav ul li :nth-child(1) {
+    margin-left: 0.26cm;  }
+    
+  main {
+    margin-top: 15px;
+    display: grid;  
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+section {
+    width: 990px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 15px;
+    justify-self: center;
+}
+
+article {
+    width: 960px;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     height: 400px;
+     overflow: auto;
+     grid-gap: 2em;
+     justify-items: center;
+ }
+
+     article p {
+        width: 440px;
+       
+        }
+       
+  article::-webkit-scrollbar {
+           display: none;
+       }
+
+       footer {
+        background-color: rgb(67, 69, 66);
+        height: 80px;
+        width: 100%;
+    }
+
+    
